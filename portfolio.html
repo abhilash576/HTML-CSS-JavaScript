@@ -5,11 +5,18 @@
     <meta charset="utf-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <style>
+          .bg {
+              background-color : black;
+              color: white;
+          }
+      </style>
   </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container">
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse">
+        
             <div class="navbar-header">
             <a class="navbar-brand" href="#">Abhilash Malla</a>
             </div>
@@ -18,11 +25,37 @@
                 <li><a href="#">PORTFOLIO</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>                
-        </div>
+        
     </nav>
-    <div class="container">         
-      <h1>My Portfolio page developed using Bootstrap</h1>           
-   </div>
+        </div>
+    <div class="container-fluid row jumbotron">   
+        <div class="col-md-8">
+            <p>The name is Abhilash Malla and I'm an UX/UI designeveloper, with extensive practical experience in brand strategy, creative direction and project management; devoted to  Functional Programming and Information Architecture. Also a huge fan of semantics and futuristic interfaces.</p>
+           
+        </div>
+        <div class="col-md-4">
+            
+            <img class="img-responsive img-circle" src="1639.jpg" style="width:400px;height:350px">
+        </div>
+         </div>
+     <div class="container-fluid  jumbotron"> 
+         <h2 class="text-center">Portfolio</h2>
+         <div class="row">
+         <div class="col-md-4">
+             <img class="img-responsive" src="1639.jpg" style="width:300px;height:250px">             
+             </div>
+             <div class="col-md-4">
+             <img class="img-responsive" src="1639.jpg" style="width:300px;height:250px">             
+             </div>
+             <div class="col-md-4">
+             <img class="img-responsive" src="1639.jpg" style="width:300px;height:250px">             
+             </div>         
+         </div>
+        </div>        
+   <footer class="container-fluid bg text-center">
+  <h4>Developed and Designed by Abhilash Malla</h4> 
+</footer>    
+   
    
   </body>
 </html>
